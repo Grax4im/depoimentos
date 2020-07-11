@@ -49,7 +49,7 @@ Variables
   --spacing: 0.25rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
   --max-width: 1170px;
   --fixed-width: 620px;
 }
@@ -191,8 +191,7 @@ main {
   height: 0.25rem;
   width: 5rem;
   background: var(--clr-primary-5);
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 .container {
   width: 80vw;
@@ -276,11 +275,9 @@ main {
   color: var(--clr-primary-5);
 }
 .random-btn {
-  margin-top: 0.5rem;
+  margin-top: 1rem;
   background: var(--clr-primary-10);
   color: var(--clr-primary-5);
-  padding: 0.25rem 0.5rem;
-  text-transform: capitalize;
   border-radius: var(--radius);
   transition: var(--transition);
   border-color: var(--clr-primary-5);
